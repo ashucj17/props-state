@@ -1,11 +1,20 @@
 *{
-  background: #838282;
+  background: #212730;
+  color: aliceblue;
 }
 
 div{
+  margin: 0 auto;
   text-align: center;
   width: 450px;
   height: 450px;
-  border: 1px solid #111;
+  border: 1px solid #ffffff;
   border-radius: 15px;
+}
+
+button{
+  padding: 15px 25px;
+  margin-left: 10px;
+  border-radius: 15px;
+  border:1px solid rgba(127, 236, 127, 0.414);
 }
