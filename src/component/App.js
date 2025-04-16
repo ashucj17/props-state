@@ -5,6 +5,14 @@ function App(){
 
   const addCounter = () =>{
     setCounter(counter + 1)
+    setCounter(counter + 1)
+    setCounter(counter + 1)
+    setCounter(counter + 1)
+
+    {/*---   setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)-- useState hook contains a variable and a method where the method contains a callback function   ---*/}
   }
 
   let removeCounter = ()=>{
