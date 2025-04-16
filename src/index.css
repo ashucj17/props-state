@@ -1,10 +1,14 @@
+@import "tailwindcss";
+
+
+
 *{
   background: #212730;
   color: aliceblue;
 }
 
 div{
-  margin: 0 auto;
+  margin: 20px auto;
   text-align: center;
   width: 450px;
   height: 450px;
@@ -17,4 +21,21 @@ button{
   margin-left: 10px;
   border-radius: 15px;
   border:1px solid rgba(127, 236, 127, 0.414);
+}
+.card{
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 300px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title{
+  margin: 0;
+  font-size: 1.5em;
+}
+.description {
+margin-top: 8px;
+  font-size: 1em;
+  color:#666;
 }
